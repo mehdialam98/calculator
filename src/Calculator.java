@@ -89,6 +89,7 @@ public class Calculator implements ActionListener {
         panel.add(equButton);
         panel.add(divButton);
 
+		//Mohsins comment1 for first day work.
 
         frame.add(panel);
         frame.add(negButton);
@@ -174,3 +175,4 @@ public class Calculator implements ActionListener {
         //Testing2
     }
 }
+//Mohsins comment2 for first day work.
