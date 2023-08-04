@@ -3,6 +3,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 //TESTING
+
 public class Calculator implements ActionListener {
 
     JFrame frame;
@@ -100,6 +101,7 @@ public class Calculator implements ActionListener {
     public static void main(String[] args) {
 
         Calculator calc = new Calculator();
+        //Testing3
     }
 
     @Override
@@ -169,6 +171,6 @@ public class Calculator implements ActionListener {
             temp *= -1;
             textField.setText(String.valueOf(temp));
         }
-
+        //Testing2
     }
 }
